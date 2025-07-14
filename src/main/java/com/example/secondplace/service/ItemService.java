@@ -16,7 +16,7 @@ public class ItemService {
     }
 
     public Item addItem(Item item) {
-        item.setStatus(Item.ItemStatus.AVAILABLE); // Set default status to AVAILABLE
+        item.setStatus(Item.ItemStatus.AVAILABLE);
         return itemRepository.save(item);
     }
 

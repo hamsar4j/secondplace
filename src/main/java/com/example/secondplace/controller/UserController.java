@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
 
-import org.springframework.web.bind.annotation.PutMapping;
-
 @RestController
 @RequestMapping("/api/users")
 @CrossOrigin(origins = "*")
